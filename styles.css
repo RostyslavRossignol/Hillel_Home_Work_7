@@ -44,14 +44,21 @@ body {
     background-repeat: no-repeat;
 }
 
-.hero_text {
+.hero__bottom {
+    padding: 130px 0;
+    background-image: url(images/rectangle_47.png);
+    background-size: 100% 619px;
+    background-repeat: no-repeat;
+}
+
+.hero__text {
     text-align: center;
     font-weight: 700;
     margin-top: 73px;
     margin-bottom: 7px;
 }
 
-.hero_title {
+.hero__title {
     text-align: center;
     font-weight: 700;
     font-size: 58px;
@@ -60,7 +67,7 @@ body {
     width: 937px;
 }
 
-.hero_description {
+.hero__description {
     font-weight: 500;
     margin: 0 0 54px 0;
 }
@@ -91,6 +98,14 @@ body {
     border: solid 1px white;
 }
 
+.hero__btn--square {
+    border-radius: 10px;
+    height: 64px;
+    min-width: 142px;
+    padding: 18px 31px;
+    width: auto;
+}
+
 .row__wrapper {
     font-weight: 700;
     display: flex;
@@ -111,6 +126,10 @@ body {
     align-items: center;
     justify-content: space-around;
     margin: 78px 0;
+}
+
+.app-desc__figure--reverse {
+    flex-direction: row-reverse;
 }
 
 .app-desc__figure figcaption {
