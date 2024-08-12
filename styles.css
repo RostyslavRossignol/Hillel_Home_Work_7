@@ -4,6 +4,11 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -31,6 +36,11 @@ body {
 .menu__item {
     font-weight: 600;
     padding: 10px;
+    color: #252B42;
+}
+
+.menu__item--color {
+    color: #FA4A0C;
 }
 
 .hero {
@@ -72,7 +82,7 @@ body {
     margin: 0 0 54px 0;
 }
 
-.hero__main-img {
+.hero__main--img {
     width: 548px;
     height: 640px;
     background-image: url("./images/group_53.png");
@@ -106,19 +116,33 @@ body {
     width: auto;
 }
 
+.btn__size {
+    height: 60px;
+    min-width: 173px;
+}
+
 .row__wrapper {
     font-weight: 700;
     display: flex;
     gap: 34px;
 }
 
-.app-desc {
-
-}
-
 .app-desc__delimiter {
     text-align: center;
-    margin-top: 201px;
+}
+
+.app-desc__delimiter--middle {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    margin-top: 72.09px;
+}
+
+.line__middle {
+    width: 884px;
+    height: 3px;
+    margin-top: 128.91px;
+    background-color: #E4E4E4;
 }
 
 .app-desc__figure {
@@ -149,10 +173,6 @@ body {
 .app-desc__img {
     width: 602px;
     height: 825px;
-}
-
-.app-desc__action-title {
-
 }
 
 @media (max-width: 900px) {
