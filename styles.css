@@ -18,6 +18,22 @@ a {
 
 .header__logo {
     margin: 0 90px;
+    transition: transform 0.2s ease;
+}
+
+.header__logo:hover {
+    transform: translate(0px,2px);
+}
+
+.header__logo--bottom {
+    width: 246px;
+    height: 102px;
+    margin: 54.1px 222.5px 68px 186px;
+    transition: transform 0.2s ease;
+}
+
+.header__logo--bottom:hover {
+    transform: translate(0px,2px)
 }
 
 .header__menu {
@@ -37,6 +53,11 @@ a {
     font-weight: 600;
     padding: 10px;
     color: #252B42;
+    transition: transform 0.2s ease;
+}
+
+.menu__item:hover {
+    transform: translate(0px,1.5px);
 }
 
 .menu__item--color {
@@ -69,6 +90,7 @@ a {
 }
 
 .hero__title {
+    font-family: "Poppins", sans-serif;
     text-align: center;
     font-weight: 700;
     font-size: 58px;
@@ -98,9 +120,14 @@ a {
     font-size: 24px;
     justify-content: center;
     text-decoration: none;
-    line-height: 36;
+    line-height: 36px;
     height: 68px;
     width: 236px;
+    transition: transform 0.2s ease;
+}
+
+.hero__btn:hover {
+    transform: translate(0px,2px);
 }
 
 .hero__btn--outline {
@@ -132,6 +159,7 @@ a {
 }
 
 .app-desc__delimiter--middle {
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 44px;
     line-height: 36px;
@@ -167,12 +195,49 @@ a {
 .app-desc__figure h4 {
     font-weight: 500;
     color: #737373;
-
 }
 
 .app-desc__img {
     width: 602px;
     height: 825px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 170.96px;
+    height: 40.99px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__item {
+    padding: 0 24px 0 0;
+    transition: transform 0.2s ease;
+}
+
+.nav__item:hover {
+    transform: translate(0px,2px);
+}
+
+.link__copyright {
+    width: 210px;
+    height: 18px;
+    margin: 102px 150px 104.1px 274px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    transition: transform 0.2s ease;
+}
+
+.link__copyright:hover {
+    transform: translate(0px,2px);
 }
 
 @media (max-width: 900px) {
