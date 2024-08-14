@@ -227,7 +227,7 @@ a {
 }
 
 .link__copyright {
-    width: 210px;
+    min-width: 210px;
     height: 18px;
     margin: 102px 150px 104.1px 274px;
     font-family: "Roboto", sans-serif;
